@@ -1,0 +1,16 @@
+# Kernel build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+.*.cmd
+.tmp_versions/
+Module.markers
+modules.builtin
+
+# Userspace build artifacts
+bin/
+*.out
